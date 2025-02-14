@@ -14,7 +14,6 @@ function ToDoInput({ addTask }) {
     if (!input.trim()) return;
 
     const task = {
-      id: Date.now(),
       title: input,
       isCompleted: false,
     };
